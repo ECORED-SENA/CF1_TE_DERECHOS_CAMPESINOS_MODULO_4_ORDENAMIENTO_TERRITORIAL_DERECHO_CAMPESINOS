@@ -17,39 +17,41 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Ordenamiento territorial y derechos campesinos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> comprender los fundamentos prácticos relacionados con el ordenamiento territorial y dos derechos campesinos, mecanismos de participación ciudadana, dinámicas de la población campesina en el territorio riesgos y amenazas en el ordenamiento territorial y técnicas de diagnóstico participativo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'Qué es el ordenamiento territorial?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Grupo de personas que viven en el campo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Es un proceso de construcción colectiva del país y de sus diversos territorios, para lograr un desarrollo ambientalmente sostenible.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El significado se relaciona con “gente de tierra”, agricultores relacionándolo con gente que trabaja la tierra, se constituyen de acuerdo con su ubicación territorial  rural.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El campesino, tiene que ver con las necesidades del campo.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +61,31 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿A qué se refiere el artículo 1 de la declaración de los derechos del campesino?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'El campesinado es sujeto de derechos y de especial protección, tiene un particular relacionamiento con la tierra basado en la producción de alimentos en garantía de la soberanía alimentaria y sus formas de territorialidad. ',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Se entiende por “campesino” toda persona que se dedique o pretenda dedicarse, ya sea de manera individual o en asociación con otras o como comunidad, a la producción agrícola en pequeña escala para subsistir o comerciar.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Los campesinos y otras personas que trabajan en las zonas rurales tienen derecho a una alimentación adecuada y el derecho fundamental a no padecer hambre.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Todas las anteriores.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +94,33 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿A qué se refiere el artículo 11 de la declaración de los derechos del campesino?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Es el principio del bien común y la necesidad de extender a sectores más numerosos de la población rural.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Los campesinos y otras personas que trabajan en las zonas rurales tienen derecho a buscar, recibir, preparar y difundir información.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Derecho a conservar, utilizar, intercambiar y vender sus semillas o material de propagación tradicional, y a mantener, controlar, proteger y desarrollar sus propios conocimientos tradicionales relacionados con las semillas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Derecho a la información sobre insumos, ciclos de cosecha, comercializadores, distribuidores, que permitan tomar mejores decisiones productivas.',
               esCorrecta: false,
             },
           ],
@@ -120,29 +130,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿A qué se refiere el artículo 15 de la declaración de los derechos del campesino?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Derecho a la información sobre insumos, ciclos de cosecha, comercializadores, distribuidores, que permitan tomar mejores decisiones productivas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Derecho a conservar, utilizar, intercambiar y vender sus semillas o material de propagación tradicional, y a mantener, controlar, proteger y desarrollar sus propios conocimientos tradicionales relacionados con las semillas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Los campesinos y la personas que trabajan en las zonas rurales tienen derecho a determinar sus propios sistemas alimentarios y agrícolas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Los campesinos y otras personas que trabajan en las zonas rurales tienen derecho a una alimentación adecuada.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -150,28 +164,31 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿A qué se refiere la ley 1801 de 2016? ',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Esta ley es una norma colombiana que busca mantener la convivencia pacífica, la seguridad y el orden público en el país, Garantizar que las personas vivan en armonía y respeten las reglas básicas de convivencia en los espacios públicos y privados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Por la cual se crea el Sistema Nacional de Reforma Agraria y Desarrollo Rural Campesino, se establece el subsidio para la adquisición de tierras, y se reforman otras disposiciones. ',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Ley sobre el acceso a la propiedad rural, Se crean para proteger los territorios campesinos, promover la producción sostenible y evitar el avance de grandes latifundios o cultivos ilegales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ninguna de las anteriores.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +198,31 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuáles son algunos de los mecanismos de participación ciudadana?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El voto, revocatoria del mandato, iniciativa legislativa popular, cabildo abierto, consulta popular, plebiscito y el referendo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El voto, revocatoria del mandato, iniciativa legislativa popular y la soberanía alimentaria.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La soberanía alimentaria, la información, el voto, el plebiscito. ',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Todas las anteriores.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +231,31 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué es el voto?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El acto por el cual los ciudadanos eligen a sus representantes (presidente, alcaldes, gobernadores, concejales, etc.).',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Es una gran votación en la que los ciudadanos mayores de 18 años que tienen cédula de ciudadanía y que hagan parte del censo electoral.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Una decisión política importante del gobierno, el plebiscito es un mecanismo mediante el cual el Presidente de la República consulta al pueblo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Todas las anteriores.',
               esCorrecta: false,
             },
           ],
@@ -242,30 +264,33 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿A que hace referencia la reforma agraria?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Información sobre insumos, ciclos de cosecha, comercializadores, distribuidores, que permitan tomar mejores decisiones productivas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Contar con un sistema de crédito y financiamiento diferenciado para el sector rural.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Determinar el valor de su producción y a quién quiere vender su cosecha.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'El mandato constitucional de asegurar el derecho a la propiedad de los trabajadores agrarios, puesto que se supeditan a criterios de empresarización y competitividad en las que no se garantizan los derechos a la igualdad.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -273,20 +298,32 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Cuáles son algunas de las dinámicas sociales?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Producción y a quién quiere vender su cosecha.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Organización comunitaria, economía solidaria, migración rural, defensa del territorio, cambio cultural y participación ciudadana.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Personas y comunidades para acceder, usar, habitar, controlar y proteger la tierra y el territorio donde viven, trabajan y desarrollan su cultura, de manera segura y sostenible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Insumos, ciclos de cosecha, comercializadores, distribuidores, que permitan tomar mejores decisiones productivas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +331,31 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Cuáles son algunas de las dinámicas ambientales?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Defensa del territorio y el agua, adaptación al cambio climático, transformación del paisaje rural y educación ambiental comunitaria. ',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Participar en los espacios de política pública para la formulación de planes, programas y proyectos para la agricultura local y nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Conocer las propuestas de las entidades estatales que les puedan afectar de alguna forma, e intervenir, informarse y comunicar sus intereses frente a ellas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Todas las anteriores.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +365,19 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Las amenazas Son fenómenos naturales o provocados por el ser humano que pueden generar daños (inundaciones, deslizamientos, incendios, sismos, contaminación, entre otros).',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,19 +386,19 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Los riesgos buscan planificar el uso del suelo y los recursos naturales de manera equilibrada para garantizar un desarrollo sostenible, de manera que esto también puede desencadenar riesgos y amenazas tanto en el entorno natural como humano.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -358,7 +407,7 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'El ordenamiento territorial el componente urbano y rural busca planificar el uso del suelo y de los recursos naturales de forma equilibrada, teniendo en cuenta las características urbanas y rurales del territorio.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -379,19 +428,19 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'El ordenamiento territorial (OT) y la política ambiental están estrechamente vinculados, ya que ambos buscan garantizar un uso sostenible del territorio y la protección de los recursos naturales.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,7 +449,7 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'El diagnóstico participativo es un proceso mediante el cual la comunidad analiza, identifica y prioriza sus problemas, para asi contribuir a un conocimiento colectivo del territorio o grupo social.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
