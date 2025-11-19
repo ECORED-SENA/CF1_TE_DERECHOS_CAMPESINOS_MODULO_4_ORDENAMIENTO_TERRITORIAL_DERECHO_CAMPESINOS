@@ -20,7 +20,7 @@ export default {
       tema: 'Ordenamiento territorial y derechos campesinos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> comprender los fundamentos prácticos relacionados con el ordenamiento territorial y dos derechos campesinos, mecanismos de participación ciudadana, dinámicas de la población campesina en el territorio riesgos y amenazas en el ordenamiento territorial y técnicas de diagnóstico participativo.',
+        '<b> Objetivo:</b> comprender los fundamentos prácticos relacionados con el ordenamiento territorial y dos derechos campesinos, mecanismos de participación ciudadana, dinámicas de la población campesina en el territorio, riesgos y amenazas en el ordenamiento territorial y técnicas de diagnóstico participativo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

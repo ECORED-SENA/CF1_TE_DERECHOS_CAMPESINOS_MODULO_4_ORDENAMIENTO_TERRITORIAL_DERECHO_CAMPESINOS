@@ -25,7 +25,7 @@
         .row.align-items-center.mb-3
           .col-xl
             p.mb-3 La Ley 70 de 1993 constituye la base legal para el reconocimiento de las tierras de comunidades negras, sustentada en el principio constitucional que define a Colombia como una nación multiétnica y pluricultural. 
-            p.mb-0 Según esta ley, las comunidades negras están conformadas por familias de ascendencia afrocolombiana con una cultura propia, historia común y tradiciones vinculadas con la relación campo-poblado, manteniendo una conciencia de identidad que las diferencias de otros grupos étnicos.
+            p.mb-0 Según esta ley, las comunidades negras están conformadas por familias de ascendencia afrocolombiana con una cultura propia, historia común y tradiciones vinculadas con la relación campo-poblado, manteniendo una conciencia de identidad que las diferencia de otros grupos étnicos.
           .col-xl-auto
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/img53.png', alt="" ).m-auto

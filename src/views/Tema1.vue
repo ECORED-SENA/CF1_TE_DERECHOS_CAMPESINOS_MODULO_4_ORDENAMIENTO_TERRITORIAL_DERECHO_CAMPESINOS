@@ -132,9 +132,9 @@
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/img13.svg", alt="" style="max-width: 240px").m-auto
             .col-xl
-              p.mb-0 Los Estados adoptarán, cuando sea necesario , medidas apropiadas para cooperar con miras a solucionar los problemas de tenencia transfronterizos que afecten a campesinos.
+              p.mb-0 Los Estados adoptarán, cuando sea necesario, medidas apropiadas para cooperar con miras a solucionar los problemas de tenencia transfronterizos que afecten a campesinos.
     
-    h4.mb-5.caja-titulos-cuarto-nivel(data-aos="fade-right") Artículo 7. Derecho a la circulación
+    h4.mb-5.caja-titulos-cuarto-nivel(data-aos="fade-right") Artículo 11. Derecho a la información
 
     .row.align-items-center.style___box_6_1.m-0.mb-5(data-aos="zoom-in")
       .col-xl
@@ -281,7 +281,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Constitución Política de Colombia y ordenamiento territorial
     
-    p.mb-5 Constitución Política de Colombia de 1991 reconoce el carácter pluriétnico y multicultural de la nación y establece principios fundamentales que orientan el ordenamiento del territorio, como la descentralización, la autonomía territorial, la participación ciudadana y la función social y ecológica de la propiedad. Estos principios sientan las bases para una planeación territorial incluyente, sostenible y respetuosa de los derechos de las comunidades rurales y campesinas.
+    p.mb-5 La Constitución Política de Colombia de 1991 reconoce el carácter pluriétnico y multicultural de la nación y establece principios fundamentales que orientan el ordenamiento del territorio, como la descentralización, la autonomía territorial, la participación ciudadana y la función social y ecológica de la propiedad. Estos principios sientan las bases para una planeación territorial incluyente, sostenible y respetuosa de los derechos de las comunidades rurales y campesinas.
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
       h5 Figura 2.

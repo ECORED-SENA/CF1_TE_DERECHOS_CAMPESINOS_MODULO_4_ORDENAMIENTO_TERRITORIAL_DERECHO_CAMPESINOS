@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Ordenamiento territorial y derechos campesinos',
     Description:
-      'En este componente se abordará aspectos a partir de los derechos del campesino relacionados con el ordenamiento territorial, también la relación de la constitución política y las leyes que se vinculan con el ordenamiento territorial, los mecanismos de participación ciudadana y los riegos y amenazas en el ordenamiento territorial.',
+      'En este componente se abordarán aspectos a partir de los derechos del campesino relacionados con el ordenamiento territorial, también la relación de la constitución política y las leyes que se vinculan con el ordenamiento territorial, los mecanismos de participación ciudadana y los riegos y amenazas en el ordenamiento territorial.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -219,7 +219,7 @@ export default {
     {
       termino: 'Dinámicas',
       significado:
-        'fuerza o movimiento. en general, una dinámica es un proceso de cambio, interacción o movimiento que ocurre entre personas, grupos o elementos dentro de un sistema.',
+        'fuerza o movimiento en general, una dinámica es un proceso de cambio, interacción o movimiento que ocurre entre personas, grupos o elementos dentro de un sistema.',
     },
     {
       termino: 'Ordenamiento territorial',

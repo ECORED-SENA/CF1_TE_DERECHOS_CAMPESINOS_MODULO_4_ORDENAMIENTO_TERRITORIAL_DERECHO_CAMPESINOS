@@ -282,7 +282,7 @@
       .col
         h3 Dinámicas productivas 
 
-    p.mb-5 Las dinámicas productivas de la población campesina comprenden los procesos, formas de trabajo y estrategias mediante los cuales las comunidades rurales producen bienes especialmente alimentos para su subsistencia y para el mercado local. Estas dinámicas combinan saberes tradicionales, trabajo familiar y prácticas agroecológicas, con el objetivo de mantener la sostenibilidad del territorio y fortalecer la economía rural.
+    p.mb-5 Las dinámicas productivas de la población campesina comprenden los procesos, formas de trabajo y estrategias mediante los cuales las comunidades rurales producen bienes, especialmente alimentos, para su subsistencia y para el mercado local. Estas dinámicas combinan saberes tradicionales, trabajo familiar y prácticas agroecológicas, con el objetivo de mantener la sostenibilidad del territorio y fortalecer la economía rural.
 
     .fondo___slider
       .px-5
