@@ -19,7 +19,7 @@
             h4.mb-4 Lo invitamos a escuchar el siguiente pódcast:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Riesgos y amenazas en el ordenamiento territorial"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/Podcast_CF1_Derechos_campesinos_Modulo 4_ORDENAMIENTO_TERRITORIAL_DERECHO_CAMPESINOS.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto
