@@ -225,14 +225,6 @@
             td.ajuste-border-tabla.texto-left Política Nacional Ambiental de Desarrollo y el SINA.
             td.texto-left El POT debe incorporar los <strong>determinantes ambientales</strong> definidos por las autoridades ambientales.
 
-
-
-
-
-
-
-
-
 </template>
 
 <script>

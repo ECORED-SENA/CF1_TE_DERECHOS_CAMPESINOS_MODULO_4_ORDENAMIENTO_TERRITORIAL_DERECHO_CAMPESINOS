@@ -172,8 +172,8 @@
 
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: TEXTO
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TWkVRgXZjRI" title="Dinámicas ambientales comunidades campesinas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: dinámicas ambientales comunidades campesinas.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
