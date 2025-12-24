@@ -29,7 +29,7 @@
                     <li class="mb-2"><span class="fa-li"><i class="fas fa-leaf"></i></span>Regionalmente armónico.</li>
                     <li class="mb-0"><span class="fa-li"><i class="fas fa-leaf"></i></span>Culturalmente pertinente.</li>
                   </ul>
-              p.mb-0 Todo ello debe ser acorde con la diversidad cultural y físico geográfica del territorio.
+              p.mb-0 Todo ello debe ser acorde con la diversidad cultural y físico - geográfica del territorio.
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block
           img(src='@/assets/curso/temas/img2.png', alt="" ).m-auto
@@ -69,7 +69,7 @@
         figure.d-none.d-xl-block
           img(src='@/assets/curso/temas/img7.svg', alt='').m-auto
       .col-xl
-        p.mb-0 A continuación, se presenta los artículos más relevantes de la Declaración de las Naciones Unidas sobre los Derechos de los campesinos y de otras personas que trabajan en las zonas rurales. Cada artículo reconoce garantías fundamentales que buscan proteger su dignidad, su relación con la tierra y los recursos naturales, y su papel en la producción alimentaria y la conservación del entorno.
+        p.mb-0 A continuación, se presentan los artículos más relevantes de la Declaración de las Naciones Unidas sobre los Derechos de los campesinos y de otras personas que trabajan en las zonas rurales. Cada artículo reconoce garantías fundamentales que buscan proteger su dignidad, su relación con la tierra y los recursos naturales, y su papel en la producción alimentaria y la conservación del entorno.
 
     h4.mb-5.caja-titulos-cuarto-nivel(data-aos="fade-right") Artículo 1. Campesinos
 
@@ -279,7 +279,7 @@
     <!-- BLOQUE 2 -->
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Constitución Política de Colombia y ordenamiento territorial
+      h2 1.2 Constitución política de Colombia y ordenamiento territorial
     
     p.mb-5 La Constitución Política de Colombia de 1991 reconoce el carácter pluriétnico y multicultural de la nación y establece principios fundamentales que orientan el ordenamiento del territorio, como la descentralización, la autonomía territorial, la participación ciudadana y la función social y ecológica de la propiedad. Estos principios sientan las bases para una planeación territorial incluyente, sostenible y respetuosa de los derechos de las comunidades rurales y campesinas.
 
